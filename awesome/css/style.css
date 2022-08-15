@@ -20,7 +20,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.awesome_block_text_h5{
+.awesome_block_text_p{
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -47,7 +47,7 @@ h2{
     font-weight: 700;
 }
 
-.awesome_block_one h5{
+.awesome_block_one p{
     margin-top: 20px;
     font-family: Raleway;
     text-align: center;
@@ -83,7 +83,7 @@ h2{
     font-weight: 700;
 }
 
-.awesome_block_two h5{
+.awesome_block_two p{
     margin-top: 20px;
     font-family: Raleway;
     text-align: center;
@@ -119,7 +119,7 @@ h2{
     font-weight: 700;
 }
 
-.awesome_block_three h5{
+.awesome_block_three p{
     margin-top: 20px;
     font-family: Raleway;
     text-align: center;
