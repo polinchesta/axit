@@ -1,6 +1,7 @@
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 h2{
@@ -14,7 +15,7 @@ h2{
 
 .awesome_block_line{
     border-bottom: 1px solid #EC7979;
-    margin-left: 520px;
+    margin-left: 500px;
     width: 170px;
     margin-bottom: 30px;
 }
@@ -31,6 +32,7 @@ h2{
 
 .awesome_block_one{
     width: 370px; 
+    display: inline-block;
 }
 
 .awesome_block_one_img{
@@ -70,8 +72,7 @@ h2{
 
 .awesome_block_two{
     width: 370px;
-    margin-left: 400px;
-    margin-top: -300px;
+    display: inline-block;
 }
 
 .awesome_block_two h4{
@@ -107,8 +108,7 @@ h2{
 
 .awesome_block_three{
     width: 370px;
-    margin-left: 800px;
-    margin-top: -300px;
+    display: inline-block;
 }
 
 .awesome_block_three h4{
@@ -140,4 +140,8 @@ h2{
     height: 65px;
     width: 65px;
     margin: 15px;
+}
+
+.awesome_block{
+    margin-left: 30px;
 }
