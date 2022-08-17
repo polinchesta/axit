@@ -26,7 +26,7 @@ h2{
 
 /* line */
 
-.block_line{
+.block-line{
     border-bottom: 1px solid #EC7979;
     width: 170px;
     margin: 0px auto 30px auto;
@@ -34,7 +34,7 @@ h2{
 
 /* subtitle */
 
-.block_text{
+.block-text{
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -46,26 +46,26 @@ h2{
 
 /* awesome_ block margin */
 
-.awesome_block{
+.awesome-block{
     margin-left: 15px;
 }
 
 /* cart */
 
-.awesome_block_cart{
+.awesome-block__cart{
     width: 370px; 
     display: inline-block;
 }
 
 /* cart img */
 
-.awesome_block_one img{
+.awesome-block__one img{
     margin-top: 120px;
 }
 
 /* cart text h4 */
 
-.awesome_block_cart h4{
+.awesome-block__cart h4{
     font-family: Open Sans;
     font-size: 24px;
     text-align: center;
@@ -75,7 +75,7 @@ h2{
 
 /* cart text p */
 
-.awesome_block_cart p{
+.awesome-block__cart p{
     margin-top: 20px;
     font-family: Raleway;
     text-align: center;
@@ -86,7 +86,7 @@ h2{
 
 /* cart circle */
 
-.awesome_block_circle{
+.awesome-block__circle{
     border: 1px solid #EC7979;
     border-radius: 50%;
     height: 90px;
@@ -96,19 +96,19 @@ h2{
 
 /* cart circle1 img */
 
-.awesome_block_circle_one img{
+.awesome-block__circle_one img{
     padding: 7px;
 }
 
 /* cart text p */
 
-.awesome_block_cart_two p{
+.awesome-block__cart_two p{
     margin-top: 20px;
 }
 
 /* cart circle2 img*/
 
-.awesome_block_circle_two img{
+.awesome-block__circle_two img{
     height: 65px;
     width: 65px;
     margin: 12px;
@@ -116,22 +116,26 @@ h2{
 
 /* cart circle3 img*/
 
-.awesome_block_circle_three img{
+.awesome-block__circle_three img{
     margin-left: 10px;
     padding: 15px;
 }
+
+/* h2 */
 
 .pricing h2{
     margin-top: 150px;
 }
 
-.pricing_block{
+/* block pricing  */
+
+.pricing-block{
     width: 370px;
     display: inline-block;
     margin-bottom: 100px;
 }
 
-.pricing_block_list{
+.pricing-block__list_text{
     list-style: none;
     color: #86878B;
     background: #FFFFFF;
@@ -143,7 +147,7 @@ h2{
     padding: 15px 0;
 }
 
-.pricing_block_list_tarif{
+.pricing-block__list_text_tarif{
     font-family: Open Sans;
     font-weight: 700;
     font-size: 24px;
@@ -151,7 +155,7 @@ h2{
     background-color: #333333;
 }
 
-.pricing_block_list_price{
+.pricing-block__list_text_price{
     font-family: Raleway;
     font-size: 36px;
     font-weight: 700;
@@ -160,19 +164,19 @@ h2{
     font-style: normal;
 }
 
-.pricing_block_list_information{
+.pricing-block__list_text_information{
     font-family: Raleway;
     font-size: 18px;
     background-color: #333333;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.pricing_block_two{
-    margin-left: 15px;
+.pricing-block__two{
+    margin-left: 25px;
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
 }
 
-.pricing_block_three{
-    margin-left: 15px;
+.pricing-block__three{
+    margin-left: 25px;
 }
 
