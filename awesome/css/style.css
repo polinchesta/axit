@@ -57,15 +57,9 @@
 
 .tabs__info-text-all{
     width: 600px;
+    padding-left: 100px;
 }
 
-.tabs__info-text-all-paragraf-buttom{
-    margin-top: 20px;
-}
-
-.tabs__info-text-all-paragraf{
-    margin-left: 100px;
-} 
 
 .tabs__table-text-all-paragraf{
     font-family: Raleway;
@@ -73,6 +67,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+}
+
+.tabs__img{
+    display: block;
 }
 
 .tabs__button{
