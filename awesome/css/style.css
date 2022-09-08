@@ -102,19 +102,23 @@
 }
 
 .banner-input{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.banner-input__text{
     font-family: Open Sans;
     font-style: normal;
     color: #BDBDBD;
     font-weight: 400;
     font-size: 14px;
     width: 100%;
-    padding: 6px 14px;
     border: none;
     position: relative;
     border-bottom: 1px solid #BDBDBD;
     width: 370px;
-    margin-left: 40px;
-    margin-top: 40px;
+    outline: none;
+    padding: 20px 0px;
 }
 
 .banner-download{
@@ -646,11 +650,12 @@ h2::after{
     font-weight: 400;
     font-size: 14px;
     width: 571px;
-    padding: 6px 14px;
+    padding: 6px 0px;
     border: none;
     position: relative;
     border-bottom: 1px solid #BDBDBD;
     margin-top: 40px;
+    outline: none;
 }
 
 .contact-input__message{
@@ -662,14 +667,47 @@ h2::after{
     color: #BDBDBD;
     font-weight: 400;
     font-size: 14px;
-    padding: 6px 14px;
     border: none;
     position: relative;
     border-bottom: 1px solid #BDBDBD;
     margin-top: 63px;
     margin-left: 20px;
     height: 154px;
+    resize: none;
+    outline: none;
 }
+
+.contact-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contact-input{
+    width: 570px;
+}
+
+.contact-button{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button__click{
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    background: #EC7979;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 13px 0;
+    width: 370px; 
+    border: none;
+}
+
 
 .footer{
     padding-top: 40px;
@@ -701,26 +739,3 @@ h2::after{
     margin: 0 20px;
 }
 
-.contact-container{
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.contact-left{
-    width: 570px;
-}
-
-.contact-button{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    background: #EC7979;
-    color: #FFFFFF;
-    text-align: center;
-    transition: 0.3s;
-    cursor: pointer;
-    padding: 13px 0;
-    width: 370px;   
-}
